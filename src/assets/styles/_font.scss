@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    src: url("./assets/sf-fonts/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text Medium";
+    font-weight: 600;
+    src: url("./assets/sf-fonts/SF-Pro-Text-Medium.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text Medium";
+    font-weight: 700;
+    src: url("./assets/sf-fonts/SF-Pro-Text-Heavy.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text Light";
+    font-weight: 400;
+    src: url("./assets/sf-fonts/SF-Pro-Text-Light.otf");
+}
+
+
+.font-title-1{
+    font-family: "SF Pro Text";
+  font-size: 24px;
+  font-weight: 600;
+  }
+  .font-title-2{
+    font-family: 'SF Pro Text Light';
+    font-size: 24px;
+  }
+  .font-title-3{
+    font-family: 'SF Pro Text Light';
+    font-size: 13px;
+  }
+  .font-body-1{
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+  }
+  .font-body-2{
+    font-family: 'SF Pro Text Light';
+    font-size: 16px;
+  }
+  .font-body-3{
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+  }

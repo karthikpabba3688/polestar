@@ -1,0 +1,49 @@
+<div class="page-container">
+    <div class="item1" #item1>
+        <mat-card>
+            <div class="card-header">
+                <span class="card-title">
+                    <mat-icon>inbox</mat-icon>
+                    <span>My Action Items</span>
+                </span>
+                <mat-icon (click)="remove('item1')">close</mat-icon>
+            </div>
+
+        </mat-card>
+    </div>
+    <div class="item2" fxLayout="column" #item2>
+        <div class="card-sec" id="item21" #item21>
+            <mat-card>
+                <div class="card-header">
+                    <span class="card-title">
+                        <mat-icon>inbox</mat-icon>
+                        <span>Announcements</span>
+                    </span>
+                    <mat-icon (click)="remove('item21')">close</mat-icon>
+                </div>
+            </mat-card>
+        </div>
+        <div class="card-sec" id="item22" #item22>
+            <mat-card>
+                <div class="card-header">
+                    <span class="card-title">
+                        <mat-icon>inbox</mat-icon>
+                        <span>Feedback</span>
+                    </span>
+                    <mat-icon (click)="remove('item22')">close</mat-icon>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+    <div class="item3" #item3>
+        <mat-card>
+            <div class="card-header">
+                <span class="card-title">
+                    <mat-icon>inbox</mat-icon>
+                    <span>Modules</span>
+                </span>
+                <mat-icon (click)="remove('item3')">close</mat-icon>
+            </div>
+        </mat-card>
+    </div>
+</div>

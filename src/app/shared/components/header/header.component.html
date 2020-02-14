@@ -1,0 +1,38 @@
+<div class="header-container">
+    <mat-toolbar>
+        <div class="logo">
+            <img src="assets/images/apple-logo.svg" />
+            <span class="font-title-2 logo-text"><span class="font-title-1">Pole</span>Star</span>
+        </div>
+        <div class="menus">
+            <mat-nav-list>
+                <ng-container *ngFor="let link of links">
+                    <mat-list-item [routerLink]="[link.route]" routerLinkActive>
+                        {{ link.name }}
+                    </mat-list-item>
+                </ng-container>
+            </mat-nav-list>
+            
+        </div>
+        <div class="fxFlex">&nbsp;</div>
+        <!-- <mat-icon>settings</mat-icon> -->
+        <div class="user-info">
+            
+            <button mat-button [matMenuTriggerFor]="menu">
+                <span>Jane Doe</span>
+                <mat-icon>person</mat-icon>
+                <mat-icon>keyboard_arrow_down</mat-icon>
+            </button>
+        </div>
+    </mat-toolbar>
+</div>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item>
+        <mat-icon>edit</mat-icon>
+        <span>Profile</span>
+    </button>
+    <button mat-menu-item>
+        <mat-icon>settings</mat-icon>
+        <span>Preferences</span>
+    </button>
+</mat-menu>

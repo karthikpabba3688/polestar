@@ -1,0 +1,37 @@
+
+@import '../../../../assets/styles/variables';
+.header-container{
+    mat-toolbar{
+        background-color: $gray-bg;
+        color: #fff;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        .logo-text{
+            height: 28px;
+            margin: 0px 8px;
+        }
+    }
+    .menus{
+        mat-nav-list{
+            display: flex;
+            margin: 0px 16px;
+            padding: 0;
+            
+            mat-list-item{
+                color: #fff;
+                margin-right: 10%;
+            }
+        }
+    }
+    .user-info{
+        height: 100%;
+        button{
+            height: 100%;
+        }
+    }
+}
